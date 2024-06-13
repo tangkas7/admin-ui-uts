@@ -24,6 +24,9 @@
   outline: none;
   background: transparent;
 }
+.navbar .wrapper .search input::-moz-placeholder {
+  font-size: 12px;
+}
 .navbar .wrapper .search input::placeholder {
   font-size: 12px;
 }

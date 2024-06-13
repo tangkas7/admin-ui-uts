@@ -1,0 +1,12 @@
+.myList {
+  display: flex;
+  width: 100%;
+}
+.myList .myListContainer {
+  flex: 6;
+}
+.myList .myListContainer .widgets {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}/*# sourceMappingURL=mylist.css.map */
