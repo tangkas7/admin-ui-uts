@@ -72,4 +72,9 @@
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
+}
+.new .newContainer .top .right form button:disabled,
+.new .newContainer .bottom .right form button:disabled {
+  background-color: rgba(3, 92, 92, 0.322);
+  cursor: not-allowed;
 }/*# sourceMappingURL=new.css.map */

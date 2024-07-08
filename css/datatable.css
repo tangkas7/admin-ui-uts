@@ -20,6 +20,18 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.datatable .cellWithImg {
+  display: flex;
+  align-items: center;
+}
+.datatable .cellWithImg .cellImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}
 .datatable .cellAction {
   display: flex;
   align-items: center;
@@ -30,5 +42,12 @@
   border-radius: 5px;
   color: darkblue;
   border: 1px dotted rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}
+.datatable .cellAction .deleteButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: crimson;
+  border: 1px dotted rgba(220, 20, 60, 0.6);
   cursor: pointer;
 }/*# sourceMappingURL=datatable.css.map */
