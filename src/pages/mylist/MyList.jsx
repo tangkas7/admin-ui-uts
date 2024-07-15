@@ -14,11 +14,8 @@ const MyList = ({columns}) => {
           <Widget type="user" />
           <Widget type="order" />
           <Widget type="earning" />
-          
         </div>
-        <div className="table">
           <MyDatatable columns={columns} />
-        </div>
       </div>
     </div>
   );
