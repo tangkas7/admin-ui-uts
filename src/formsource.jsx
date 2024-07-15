@@ -74,3 +74,12 @@ export const productInputs = [
     placeholder: "in stock",
   },
 ];
+
+export const categoriesInputs = [
+  {
+    id: "title",
+    label: "Name",
+    type: "text",
+    placeholder: "Coffee"
+  }
+]
